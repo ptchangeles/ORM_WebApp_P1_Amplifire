@@ -1,0 +1,39 @@
+package com.revature.dao;
+
+import java.util.Set;
+
+import com.revature.model.User;
+
+public class UserDao implements UserDaoInterface {
+
+	@Override
+	public int createUser(User user) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Set<User> getAllUser() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void readUsername(String username) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean existingUser(String username, String password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void deleteUser(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

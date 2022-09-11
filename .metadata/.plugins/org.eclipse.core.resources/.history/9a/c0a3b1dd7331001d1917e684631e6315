@@ -1,0 +1,27 @@
+package com.revature.controller;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/helloServlet")
+public class UserController extends HttpServlet{
+	
+	public HelloServlet()) {
+		super();
+	}
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) {
+		
+	}
+	
+	
+	public void registerUser(HttpServletRequest request, HttpServletResponse response) {
+		
+		String username = request.getParameter("username");
+		String password = request.getParameter("password");
+		String email = request.getParameter("email");
+	}
+
+}
