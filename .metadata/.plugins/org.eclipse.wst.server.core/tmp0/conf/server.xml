@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\REV_Java Projects\Project 1 - Final\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\REV_Java Projects\Project 1 - Final\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\P2-WebApp-Amplifire" path="/P2-WebApp-Amplifire" reloadable="true" source="org.eclipse.jst.jee.server:P2-WebApp-Amplifire"/></Host>
+      <Context docBase="C:\REV_Java Projects\Project 1 - Final\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\REV_Java Projects\Project 1 - Final\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\P2-WebApp-Amplifire" path="/P2-WebApp-Amplifire" reloadable="true" source="org.eclipse.jst.jee.server:P2-WebApp-Amplifire"/><Context docBase="C:\REV_Java Projects\Project 1 - Final\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\P1-WebApp-Amplifire-Final" path="/P1-WebApp-Amplifire-Final" reloadable="true" source="org.eclipse.jst.jee.server:P1-WebApp-Amplifire-Final"/></Host>
     </Engine>
   </Service>
 </Server>
