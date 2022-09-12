@@ -1,6 +1,7 @@
 package com.revature.web;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -26,12 +27,17 @@ public class RegisterServlet extends HttpServlet{
 		String password = request.getParameter("password");
 		String email = request.getParameter("email");
 		
-		User user = new User();
-		user.setUsername(username);
-		user.setPassword(password);
-		user.setEmail(email);
+		User insertUser = new User();
+		insertUser.setUsername(username);
+		insertUser.setPassword(password);
+		insertUser.setEmail(email);
 		
-		userDao.createUser(user);
+		try {
+			userDao.createUser(insertUser);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		RequestDispatcher rD = request.getRequestDispatcher("welcome");
 		rD.forward(request, response);

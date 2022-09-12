@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="org.apache.catalina.User"/>
     <fullyQualifiedTypeName name="com.revature.dao.UserDao"/>
-    <fullyQualifiedTypeName name="com.revature.models.User"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
@@ -26,4 +25,7 @@
     <fullyQualifiedTypeName name="com.revature.dao.LocationsDao"/>
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="com.revature.dao.RoutesDao"/>
+    <fullyQualifiedTypeName name="com.revature.models.User"/>
+    <fullyQualifiedTypeName name="com.revature.models.QueryBuilder"/>
+    <fullyQualifiedTypeName name="com.revature.services.ExecutorService"/>
 </qualifiedTypeNameHistroy>

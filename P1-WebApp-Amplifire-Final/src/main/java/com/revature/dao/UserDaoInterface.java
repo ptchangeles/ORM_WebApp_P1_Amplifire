@@ -1,5 +1,6 @@
 package com.revature.dao;
 
+import java.sql.SQLException;
 import java.util.Set;
 
 import com.revature.models.User;
@@ -7,7 +8,7 @@ import com.revature.models.User;
 public interface UserDaoInterface {
 
 	//Add User
-	public int createUser(User user);
+	public int createUser(User insertUser) throws SQLException;
 	
 	//Display all Users
 	Set<User> getAllUser();
